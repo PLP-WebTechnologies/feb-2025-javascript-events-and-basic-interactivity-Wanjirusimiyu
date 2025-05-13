@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>JavaScript Playground 🎮</h1>
+  </header>
+
+  <!-- Button Section -->
+  <section>
+    <button id="magicBtn">Click Me!</button>
+    <p id="btnText">I'll change when clicked or hovered!</p>
+  </section>
+
+  <!-- Keypress Section -->
+  <section>
+    <input type="text" id="keyInput" placeholder="Type something..." />
+    <p id="keyFeedback"></p>
+  </section>
+
+  <!-- Image Gallery -->
+  <section class="gallery">
+    <h2>Image Gallery</h2>
+    <div class="thumbnails">
+      <img src="https://images.unsplash.com/photo-1745827217030-32829e3ebeae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D" alt="1" class="thumb">
+      <img src="https://images.unsplash.com/photo-1744132813623-5ce3c521eef4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8" alt="2" class="thumb">
+      <img src="https://images.unsplash.com/photo-1744148070187-b3815f7a9dbc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8" alt="3" class="thumb">
+    </div>
+  </section>
+
+  <!-- Tabs -->
+  <section class="tabs">
+    <button class="tab-btn" data-tab="tab1">Tab 1</button>
+    <button class="tab-btn" data-tab="tab2">Tab 2</button>
+    <div id="tab1" class="tab-content">This is Tab 1 Content</div>
+    <div id="tab2" class="tab-content hidden">This is Tab 2 Content</div>
+  </section>
+
+  <!-- Form Validation -->
+  <section>
+    <form id="signupForm">
+      <label>Email: <input type="email" id="email" required></label>
+      <span id="emailFeedback" class="feedback"></span>
+      <br>
+      <label>Password: <input type="password" id="password" required></label>
+      <span id="passwordFeedback" class="feedback"></span>
+      <br>
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

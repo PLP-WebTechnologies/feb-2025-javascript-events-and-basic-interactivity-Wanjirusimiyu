@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  line-height: 1.6;
+}
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.gallery {
+  margin: 2rem 0;
+}
+.thumbnails img {
+  cursor: pointer;
+  margin: 0.5rem;
+  border: 2px solid transparent;
+}
+.thumbnails img:hover {
+  border: 2px solid blue;
+}
+.feedback {
+  color: red;
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+input:valid {
+  border-color: green;
+}
